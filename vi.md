@@ -8,31 +8,31 @@ Nối tiếp bài báo trước có tựa đề [Why design is Critical to Softw
 
 Tôi sẽ không đi vào bất kỳ chi tiết về cơ học hoặc thực hiện của bất kỳ mẫu `Design Patterns` cụ thể. Có nhiều nguồn xuất sắc có sẵn ở bên ngoài.
 
-## Mẫu thiết kế là gì?
+## Design Pattern là gì?
 
 Vậy bắt đầu, chính xác là một `Design Pattern` là gì? Dưới đây là một vài định nghĩa cho thuật ngữ:
 
-Trích xuất từ [Wikipedia][2]:
+Trích từ [Wikipedia][2]:
 
 > "Một mẫu thiết kế trong kiến ​​trúc và khoa học máy tính là một cách chính thức để ghi lại một giải pháp cho một vấn đề thiết kế trong một lĩnh vực chuyên môn cụ thể."
 
-Trích xuất từ [Data & Object Factory][3]:
+Trích từ [Data & Object Factory][3]:
 
 > "Mẫu thiết kế là các giải pháp định kỳ cho các vấn đề thiết kế phần mềm mà bạn tìm thấy trong phát triển ứng dụng thực tế. Các mẫu là về thiết kế và tương tác của các đối tượng, cũng như cung cấp một nền tảng giao tiếp liên quan đến những giải pháp thanh lịch, có thể tái sử dụng đối với những thách thức lập trình thường gặp. "
 
 Vì vậy `Design Pattern` là một mục đích chung của một vấn đề, có thể được áp dụng cho một giải pháp cụ thể. Khi các nhà phát triển phần mềm có xu hướng giải quyết nhiều loại vấn đề tương tự, điều đó có nghĩa là bất kỳ giải pháp phần mềm nào sẽ kết hợp các yếu tố tương tự từ các giải pháp khác. Tại sao lại phát minh lại bánh xe?
 
-## Well documented and understood 
+## Tài liệu tốt và hiểu nó 
 
 Vì `Design Patterns` được các nhà kiến ​​trúc sư, nhà thiết kế và phát triển phần mềm biết đến và hiểu rõ, thì ứng dụng của họ trong một giải pháp cụ thể cũng sẽ được hiểu rõ.
 
 `Design Patterns` cho một nhà phát triển phần mềm một loạt các giải pháp được thử và thử nghiệm cho các vấn đề chung, do đó giảm nguy cơ kỹ thuật cho dự án bằng cách không phải sử dụng một thiết kế mới và chưa được kiểm tra.
 
-`Design Patterns` có thể không dẫn đến giảm thời gian phát triển vì có một đường cong học tập nếu đội không quen với chúng. Tuy nhiên, nhìn sâu hơn xuống đường ống phát triển, một khi quen thuộc với chúng tăng lên, thời gian phát triển nên giảm dần.
+`Design Patterns` có thể không dẫn đến giảm thời gian phát triển vì nó có một hướng học theo, nếu nhóm không quen với chúng. Tuy nhiên, nhìn sâu hơn xuống đường ống phát triển, một khi quen thuộc với chúng tăng lên, thời gian phát triển nên giảm dần.
 
-## Đồng điệu với kỹ thuật dân dụng
+## Sự tương đồng với kỹ thật xây dựng
 
-Để đưa ra một sự tương tự của một mẫu thiết kế từ lĩnh vực kỹ thuật dân dụng (như tôi đã nêu trong bài báo của tôi [Why design is Critical to Software Development][1]) có những điểm tương đồng gần giống với công nghệ phần mềm), sẽ là một giải pháp để vượt sông. Đây là một vấn đề thường xuyên đối với các kỹ sư dân dụng, trong đó có một số giải pháp được ghi nhận và hiểu rõ. Các kỹ sư dân dụng có thể xây dựng một cầu hoặc đường hầm.
+Để đưa ra một sự tương tự của `Design Pattern` từ lĩnh vực kỹ thuật dân dụng (như tôi đã nêu trong bài báo của tôi [Why design is Critical to Software Development][1]) có những điểm tương đồng gần giống với công nghệ phần mềm), sẽ là một giải pháp để vượt sông. Đây là một vấn đề thường xuyên đối với các kỹ sư dân dụng, trong đó có một số giải pháp được ghi nhận và hiểu rõ. Các kỹ sư dân dụng có thể xây dựng một cầu hoặc đường hầm.
 
 Tại sao một kỹ sư dân dụng cố gắng giải quyết vấn đề này từ đầu khi có những giải pháp thế giới thực có thể được đề cập đến? Có sự tương đồng gần gũi giữa kỹ sư dân dụng giải quyết vấn đề về sông, và kỹ sư phần mềm giải quyết vấn đề phần mềm:
 
@@ -48,19 +48,19 @@ Vấn đề duy nhất tôi đã gặp với `Design Patterns` là họ mất th
 
 `Design Patterns` là các giải pháp được thử và thử nghiệm, nhà phát triển không cần phải bắt đầu từ đầu, và có thể chạy nền với một giải pháp đã được chứng minh là có hiệu quả (miễn là `Design Patterns` được sử dụng giải quyết một vấn đề tương tự). Sẽ là sai khi mong đợi một cây cầu để giải quyết vấn đề băng qua đại dương, nơi mà cây cầu chỉ đơn giản là không phù hợp.
 
-## Lợi ích của việc sử dụng mẫu thiết kế
+## Lợi ích của việc sử dụng Design Pattern
 
 `Design Patterns` do đó cung cấp các lợi ích sau.
 
-* Họ cung cấp cho nhà phát triển một loạt các giải pháp thử và thử nghiệm để làm việc với
+* Chúng cung cấp cho nhà phát triển một loạt các giải pháp thử và thử nghiệm để làm việc
 * Chúng là ngôn ngữ trung tính và do đó có thể được áp dụng cho bất kỳ ngôn ngữ nào hỗ trợ hướng đối tượng
-* Họ hỗ trợ truyền thông bởi thực tế là họ có tài liệu tốt và có thể được nghiên cứu nếu đó không phải là trường hợp.
-* Họ đã có một hồ sơ theo dõi đã được chứng minh vì chúng đã được sử dụng rộng rãi và do đó làm giảm nguy cơ kỹ thuật cho dự án
+* Chúng hỗ trợ truyền thông bởi thực tế là họ có tài liệu tốt và có thể được nghiên cứu nếu đó không phải là trường hợp.
+* Chúng đã có một hồ sơ theo dõi đã được chứng minh vì chúng đã được sử dụng rộng rãi và do đó làm giảm nguy cơ kỹ thuật cho dự án
 * Chúng rất linh hoạt và có thể được sử dụng trong bất kỳ loại ứng dụng hoặc tên miền nàon
 
 ## Phần kết luận
 
-`Design Patterns`, mặc dù đường cong học tập ban đầu, là một sự đầu tư rất đáng giá. Họ sẽ cho phép bạn thực hiện các giải pháp được thử và thử nghiệm cho các vấn đề, do đó tiết kiệm thời gian và nỗ lực trong giai đoạn triển khai của vòng đời phát triển phần mềm. Bằng cách sử dụng các giải pháp được hiểu rõ và có tài liệu, sản phẩm cuối cùng sẽ có một mức độ hiểu biết cao hơn nhiều. Nếu giải pháp được dễ dàng hơn để hiểu, sau đó bằng cách mở rộng, nó cũng sẽ được dễ dàng hơn để duy trì.
+`Design Patterns`, mặc dù khó khăn học tập ban đầu, là một sự đầu tư rất đáng giá. Họ sẽ cho phép bạn thực hiện các giải pháp được thử và thử nghiệm cho các vấn đề, do đó tiết kiệm thời gian và nỗ lực trong giai đoạn triển khai của vòng đời phát triển phần mềm. Bằng cách sử dụng các giải pháp được hiểu rõ và có tài liệu, sản phẩm cuối cùng sẽ có một mức độ hiểu biết cao hơn nhiều. Nếu giải pháp được dễ dàng hơn để hiểu, sau đó bằng cách mở rộng, nó cũng sẽ được dễ dàng hơn để duy trì.
 
 [1]: http://www.codeproject.com/Tips/806867/Why-Design-is-Critical-to-Software-Development
 [2]: http://en.wikipedia.org/wiki/Design_pattern
